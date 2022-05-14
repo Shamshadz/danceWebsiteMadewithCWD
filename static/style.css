@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 38px;
+    /* filter: invert(1); */
+}
+
+#navbar{
+    background-color: rgb(235, 91, 211);
+    padding: 8px 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+
+#navbar li a:hover{
+    color: rgb(0, 0, 0);    
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Macondo', cursive;
+    font-size: 35px;
+    background: center/cover no-repeat url("/static/bj.jpg");
+    height: 300px;
+}
+
+#introSection div.small{
+    font-size: 27px;
+}
+
+#missionSection{
+    height: 230px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Macondo', cursive;
+
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 3px 22px;
+    height: 162px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 17px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    /* width: 30%; */
+    height: inherit;
+}
+.card-content{
+    padding: 6px;
+}
+
+#sponsorSection{
+    height: 271px;
+    background-color: rgb(225 136 193);
+}
+
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Macondo', cursive;
+}
+
+#sponsors{
+    height: 158px;
+    margin: 22px;
+}
+
+.spIm{
+    height: 130px;
+    margin: 20px;
+    width: 20%;
+    border: 2px solid #f97cd3;
+    border-radius: 33px;
+}
+
+#footer{
+    padding: 17px;
+    height: 50px;
+    background-color: #161515;
+    text-align: center;
+    color: white;
+}
